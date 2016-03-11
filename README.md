@@ -10,6 +10,9 @@
 
 - *cron*: Buscar todos os Deputados Federais periodicamente. Ver [Site Deputados Federais](http://www2.camara.leg.br/deputados/pesquisa).
    - sugestão: veja [request](https://github.com/request/request) para fazer o download do HTML.
+   - dica: vai precisar mudar o `User-Agent` nos teus request para de de um Browser valido.
+       - veja https://github.com/request/request#custom-http-headers
+       - exemplo: `'User-Agent': 'Mozilla/5.0'`
 - *cron*: Fazer o parse das informações apresentadas no site, e gerar um JSON com dados.
    - sugestão: veja [jsdom](https://github.com/tmpvar/jsdom) se quiser interpretar o HTML.
 - *server*: enviar o JSON com o dados para um REST no teu servidor e armazena-lo no `mongodb`.
