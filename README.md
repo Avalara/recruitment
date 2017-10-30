@@ -1,4 +1,4 @@
-# Recruitment
+# Application
 
 ## Para esta etapa você deve criar um projeto node.js, usando gulp para gerenciar o projeto.
 
@@ -20,6 +20,7 @@
    - o JSON deve ser enviado no BODY da requisição.
    - use [express](https://github.com/expressjs/express) ou [restify](https://github.com/restify/node-restify) para montar o servidor rest
 - *client*: apresentar a lista de Deputados e as informações de cada Deputado numa página HTML.
+- *client*: em cada item deverá ter a opção para editar a informação redirecionando para um crud do registro.
 
 ###Exemplo da estrutura do JSON esperada:
 
@@ -46,14 +47,14 @@
 ### Outros extras:
 
 - [ ] Implementação de teste unitário usando [mocha](https://github.com/mochajs/mocha).
-- [ ] Fazer a Análise de cobertura de código usando [istanbul](https://github.com/gotwarlost/istanbul).
+- [ ] Fazer a Análise de cobertura de código usando [istanbul](https://github.com/gotwarlost/istanbul) ou [codcov](https://codecov.io/).
 - [ ] Criar gerenciador do projeto no [gulp](https://github.com/gulpjs/gulp).
 - [ ] Integrar os testes do Projeto com o [travis-ci](https://travis-ci.org/).
 - [ ] Integrar a cobertura de testes do Projeto com o [coveralls](https://coveralls.io/).
+- [ ] Implementar a UI usando [React](https://reactjs.org/) e [Redux](http://redux.js.org/).
 
 
-### Prazo para entrega é uma semana a contar do início deste processo de seleção, depois disso começa a perder pontos.
-### Qualquer dúvida pode entrar em contato pelo email: daniel.joppi@suiteplus.com ou everton.amorim@suiteplus.com
+### Prazo para entrega é uma semana.
 
 ## Crie uma nova issue colocando no texto o link de algum projeto seu no github.
 ### O que vamos avaliar?
@@ -65,5 +66,4 @@
 ### O que não vamos avaliar?
 
 - UX
-- Complexidade do projeto
 - Arte (layout, cores e design em geral).
